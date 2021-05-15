@@ -1,14 +1,31 @@
 {
   "name": "slack-matrix-importer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Import a Slack history export to a Matrix server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andrea Spacca",
+  "license": "Apache-2.0",
   "dependencies": {
     "matrix-appservice-bridge": "^2.6.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspacca/slack-matrix-importer.git"
+  },
+  "keywords": [
+    "slack",
+    "matrix",
+    "importer",
+    "matrix-synapse",
+    "im",
+    "social"
+  ],
+  "bugs": {
+    "url": "https://github.com/aspacca/slack-matrix-importer/issues"
+  },
+  "homepage": "https://github.com/aspacca/slack-matrix-importer#readme"
 }
